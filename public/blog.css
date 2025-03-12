@@ -59,7 +59,143 @@ font-family: "gopher", sans-serif;
 .navbar a{
     text-decoration: none;
     color: #2C3930;
-    font-family: "Domine", serif;
+    body{
+        background-color:#FAFBFD ;
+        margin: 0px;
+    }
+    .inline1{
+        display: inline;
+    }
+    
+    .navbar {
+        
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10vw;
+        margin-top: 5vw;
+       gap: 2vw;
+       
+    }
+    
+    
+    .logo1 {
+        width: 10vw;
+        position: absolute;
+       margin-left: 10vw;
+       
+    }
+    .navbar a{
+    text-decoration: none;
+    color: #2C3930;
+    font-family: "gopher", sans-serif;
+        font-weight: 100;
+    }
+    .iletişim1{
+        background-color:#1D47FB ;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    
+    
+    @media (max-width:700px){
+        .navbar {
+            flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           gap: 2vw;
+    
+        }
+    .logo1{
+        width: 20vw;
+        margin-top: 10vw;
+    }
+    .iletişim1{
+        background-color:#1D47FB ;
+        padding: 4px;
+        border-radius: 5px;
+        color: white;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: #2C3930;
+        font-family: "gopher", sans-serif;
+        font-weight: 100;
+        font-size: 15px;
+        }
+       
+    }
+    
+    h1{
+        font-family: "gopher", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        margin-top: 70px;
+        padding-top: 30px;
+        color: #ffffff;
+       
+    
+    }
+    
+    .contactdiv{
+        background-color:#1D47FB;
+        padding-bottom: 30px;
+    }
+    
+    .contactdiv img{
+        width: 30px;
+        height: 30px;
+        
+    }
+    
+    .contactdiv p{
+        font-family: "gopher", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        text-align: left;
+        font-size: 20px;
+        margin: 0px;
+       color: rgb(255, 255, 255);
+       
+       
+        
+    }
+    
+    .centercontact {
+        display: flex;
+        justify-content: center;
+        gap: 10px ;
+        margin-bottom: 20px;
+        padding-left: 30px;
+        align-items: center;
+    
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .clsmarg{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    @media (max-width: 600px) {
+        .clsmarg{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+       
+    }
+    @media (max-width: 420px) {
+    .contactdiv p{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    }
     font-size: 15px;
     }
    
@@ -90,7 +226,143 @@ font-family: "gopher", sans-serif;
 .textsl{
     display: flex;
     justify-content: center;
-    font-family: "Domine", serif;
+    body{
+        background-color:#FAFBFD ;
+        margin: 0px;
+    }
+    .inline1{
+        display: inline;
+    }
+    
+    .navbar {
+        
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 10vw;
+        margin-top: 5vw;
+       gap: 2vw;
+       
+    }
+    
+    
+    .logo1 {
+        width: 10vw;
+        position: absolute;
+       margin-left: 10vw;
+       
+    }
+    .navbar a{
+    text-decoration: none;
+    color: #2C3930;
+    font-family: "gopher", sans-serif;
+        font-weight: 100;
+    }
+    .iletişim1{
+        background-color:#1D47FB ;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+    }
+    
+    
+    @media (max-width:700px){
+        .navbar {
+            flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           gap: 2vw;
+    
+        }
+    .logo1{
+        width: 20vw;
+        margin-top: 10vw;
+    }
+    .iletişim1{
+        background-color:#1D47FB ;
+        padding: 4px;
+        border-radius: 5px;
+        color: white;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: #2C3930;
+        font-family: "gopher", sans-serif;
+        font-weight: 100;
+        font-size: 15px;
+        }
+       
+    }
+    
+    h1{
+        font-family: "gopher", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        text-align: center;
+        margin-top: 70px;
+        padding-top: 30px;
+        color: #ffffff;
+       
+    
+    }
+    
+    .contactdiv{
+        background-color:#1D47FB;
+        padding-bottom: 30px;
+    }
+    
+    .contactdiv img{
+        width: 30px;
+        height: 30px;
+        
+    }
+    
+    .contactdiv p{
+        font-family: "gopher", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        text-align: left;
+        font-size: 20px;
+        margin: 0px;
+       color: rgb(255, 255, 255);
+       
+       
+        
+    }
+    
+    .centercontact {
+        display: flex;
+        justify-content: center;
+        gap: 10px ;
+        margin-bottom: 20px;
+        padding-left: 30px;
+        align-items: center;
+    
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    .clsmarg{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    @media (max-width: 600px) {
+        .clsmarg{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+       
+    }
+    @media (max-width: 420px) {
+    .contactdiv p{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    }
     text-align: center;
     margin-top: 2vw;
     margin-bottom: 2vw;

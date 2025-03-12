@@ -1,0 +1,163 @@
+body{
+    background-color:#FAFBFD ;
+    margin: 0px;
+}
+.inline1{
+    display: inline;
+}
+
+.navbar {
+    
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10vw;
+    margin-top: 5vw;
+   gap: 2vw;
+   
+}
+
+
+.logo1 {
+    width: 10vw;
+    position: absolute;
+   margin-left: 10vw;
+   
+}
+.navbar a{
+text-decoration: none;
+color: #2C3930;
+font-family: "gopher", sans-serif;
+    font-weight: 100;
+}
+.iletişim1{
+    background-color:#1D47FB ;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+@media (max-width:700px){
+    .navbar {
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 2vw;
+
+    }
+.logo1{
+    width: 20vw;
+    margin-top: 10vw;
+}
+.iletişim1{
+    background-color:#1D47FB ;
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: #2C3930;
+    font-family: "Domine", serif;
+    font-size: 15px;
+    }
+   
+}
+.slider {
+    position: relative;
+   margin-top:4vw;
+   
+}
+
+.sliderimage {
+    width: 100%;
+    display: block;
+}
+
+.slidertext {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%, -60%); 
+    color: white;
+    font-size: 2vw; 
+   
+    border-radius: 5px;
+    width: 80%; 
+}
+
+.textsl{
+    display: flex;
+    justify-content: center;
+    font-family: "Domine", serif;
+    text-align: center;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    font-size: 17px;
+    
+}
+@media (max-width:700px){
+    .textsl{
+        font-size: 13px; 
+    }
+
+}
+
+
+
+
+
+.flexcards{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.blog1{
+    width: 80vw;
+    margin: 8vw auto;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.blog1 img {
+    float: left;
+    width: 30vw;
+}
+.blog1 p{
+    font-family: "gopher", sans-serif;
+    font-weight: 100;
+    position: relative;
+    left: 20px;
+    padding-right: 10px;
+    top: 10px;
+}
+h1{
+    color: #1D47FB;
+    position: relative;
+    left: 20px;
+    font-family: "gopher", sans-serif;
+    font-weight: 100;
+    
+}
+h2{
+    color: #1D47FB;
+    position: relative;
+    left: 20px;
+    font-family: "gopher", sans-serif;
+    font-weight: 100;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    
+}
+
+@media (max-width:700px){
+    .blog1 img {
+        float: none;
+        width: 70vw;
+        margin-left: 5vw;
+       
+    }
+}

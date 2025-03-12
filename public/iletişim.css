@@ -1,0 +1,93 @@
+body{
+    background-color:#FAFBFD ;
+    margin: 0px;
+}
+.inline1{
+    display: inline;
+}
+
+.navbar {
+    
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10vw;
+    margin-top: 5vw;
+   gap: 2vw;
+   
+}
+
+
+.logo1 {
+    width: 10vw;
+    position: absolute;
+   margin-left: 10vw;
+   
+}
+.navbar a{
+text-decoration: none;
+color: #2C3930;
+font-family: "gopher", sans-serif;
+    font-weight: 100;
+}
+.iletişim1{
+    background-color:#1D47FB ;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+@media (max-width:700px){
+    .navbar {
+        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       gap: 2vw;font-family: "gopher", sans-serif;
+    font-weight: 100;
+
+    }
+.logo1{
+    width: 20vw;
+    margin-top: 10vw;
+}
+.iletişim1{
+    background-color:#1D47FB ;
+    padding: 4px;
+    border-radius: 5px;
+    color: white;
+}
+.navbar a{
+    text-decoration: none;
+    color: #2C3930;
+    font-family: "gopher", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    }
+   
+}
+
+h1 {
+    padding: 2vw;
+    text-align: center;
+    font-family: "gopher", sans-serif;
+    font-weight: 100;
+}
+
+.footer1{
+    background-color: #000000;
+    }
+    h3{
+        color: white;
+        font-family: "gopher", sans-serif;
+        font-weight: 100;
+        text-align: center;
+        font-weight: 100;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
+    }
+.contactsection p{
+    text-align: center;
+    padding: 0.2vw;
+    font-weight: bold;
+}
